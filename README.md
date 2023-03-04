@@ -1,1 +1,1 @@
-![Image alt](https://github.com/ZaibatsuOne/webacademy-portfoilio/blob/main/screenshot-1.png)
+![Image alt](https://github.com/ZaibatsuOne/webacademy-portfoilio/blob/main/Screenshot-1.png)
