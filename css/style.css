@@ -1,0 +1,129 @@
+@import url(css/projects.css);
+@import url(css/reset.css);
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+html, body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.nav{
+    background-color: #171718;
+    color: #fff;
+    padding: 20px;
+}
+.nav__row{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__menu{
+    display: flex;
+    gap: 50px;
+}
+.nav__item{
+    color: #fff;
+}
+.nav__item--active{
+    position: relative;
+}
+.nav__item--active::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #5C62EC;
+}
+.align{
+    text-align: center;
+    justify-content: center;
+}
+.col-58{
+    width: 44.33333333%;
+}
+.header__title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 140%;
+    color: #fff;
+    padding-bottom: 20px;
+    
+}
+.header__subtitle{
+    padding-top: 0px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+.header{
+    padding-top: 150px;
+    background-color: #171718;
+    height: 695px;
+    background-image: url(img/Abstract.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+.header__button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 248px;
+    padding-right: 28px;
+    padding-left: 28px;
+    background: #5C62EC;
+    color: #fff;
+}
+.projects{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.projects__grid{
+    padding-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+.projects__card{
+    max-width: 370px;
+    background-color: var(--white);
+    box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.projects_description{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #171718;
+    padding: 15px 20px 15px;
+}
+.footer{
+    background-color: #171718;
+    margin-top: auto;
+}
+.footer__links{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 31px;
+    gap: 30px;
+}
+.footer__info{
+    color: #fff;
+    padding-bottom: 50px;
+
+}
+.contacs__desc{
+    padding-bottom: 40px;
+}
+.contacts__title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    color: #171718;
+    padding-bottom: 20px;
+}
